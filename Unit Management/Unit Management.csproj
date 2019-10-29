@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{59C1A1AB-3D57-4C63-9435-45C7FEFB47EC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Unit_Management</RootNamespace>
+    <AssemblyName>Unit Management</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data">
+      <HintPath>.\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\frmManageUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\frmManageUser.Designer.cs">
+      <DependentUpon>frmManageUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Core\DataOperations.cs" />
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DsJobDocument.cs">
+      <DependentUpon>DsJobDocument.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DsJobDocument.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsJobDocument.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\frmaccidentType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterData\frmaccidentType.Designer.cs">
+      <DependentUpon>frmaccidentType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\frmMedicalType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterData\frmMedicalType.Designer.cs">
+      <DependentUpon>frmMedicalType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\frmOrgStracture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterData\frmOrgStracture.Designer.cs">
+      <DependentUpon>frmOrgStracture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\Organization\frmOrgMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterData\Organization\frmOrgMaster.Designer.cs">
+      <DependentUpon>frmOrgMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Person\frmAppt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Person\frmAppt.Designer.cs">
+      <DependentUpon>frmAppt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Person\frmArmyFamilyDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Person\frmArmyFamilyDetails.Designer.cs">
+      <DependentUpon>frmArmyFamilyDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Person\frmArmyMasterInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Person\frmArmyMasterInfo.Designer.cs">
+      <DependentUpon>frmArmyMasterInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Person\frmArmyMasterInfoManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Person\frmArmyMasterInfoManage.Designer.cs">
+      <DependentUpon>frmArmyMasterInfoManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Person\frmEducation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Person\frmEducation.Designer.cs">
+      <DependentUpon>frmEducation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Person\frmFgAssignment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Person\frmFgAssignment.Designer.cs">
+      <DependentUpon>frmFgAssignment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Person\frmIPFT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Person\frmIPFT.Designer.cs">
+      <DependentUpon>frmIPFT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Person\frmLeave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Person\frmLeave.Designer.cs">
+      <DependentUpon>frmLeave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Person\frmManageOPR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Person\frmManageOPR.Designer.cs">
+      <DependentUpon>frmManageOPR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Person\frmMedicalInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Person\frmMedicalInfo.Designer.cs">
+      <DependentUpon>frmMedicalInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Person\frmPunishment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Person\frmPunishment.Designer.cs">
+      <DependentUpon>frmPunishment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Person\frmTrgPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Person\frmTrgPlan.Designer.cs">
+      <DependentUpon>frmTrgPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\frmJobDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmJobDocument.Designer.cs">
+      <DependentUpon>frmJobDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmPunishmentReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmPunishmentReport.Designer.cs">
+      <DependentUpon>frmPunishmentReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmTrainingCycle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmTrainingCycle.Designer.cs">
+      <DependentUpon>frmTrainingCycle.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin\frmManageUser.resx">
+      <DependentUpon>frmManageUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterData\frmaccidentType.resx">
+      <DependentUpon>frmaccidentType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterData\frmMedicalType.resx">
+      <DependentUpon>frmMedicalType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterData\frmOrgStracture.resx">
+      <DependentUpon>frmOrgStracture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterData\Organization\frmOrgMaster.resx">
+      <DependentUpon>frmOrgMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Person\frmAppt.resx">
+      <DependentUpon>frmAppt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Person\frmArmyFamilyDetails.resx">
+      <DependentUpon>frmArmyFamilyDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Person\frmArmyMasterInfo.resx">
+      <DependentUpon>frmArmyMasterInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Person\frmArmyMasterInfoManage.resx">
+      <DependentUpon>frmArmyMasterInfoManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Person\frmEducation.resx">
+      <DependentUpon>frmEducation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Person\frmFgAssignment.resx">
+      <DependentUpon>frmFgAssignment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Person\frmIPFT.resx">
+      <DependentUpon>frmIPFT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Person\frmLeave.resx">
+      <DependentUpon>frmLeave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Person\frmManageOPR.resx">
+      <DependentUpon>frmManageOPR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Person\frmMedicalInfo.resx">
+      <DependentUpon>frmMedicalInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Person\frmPunishment.resx">
+      <DependentUpon>frmPunishment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Person\frmTrgPlan.resx">
+      <DependentUpon>frmTrgPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reports\frmJobDocument.resx">
+      <DependentUpon>frmJobDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmPunishmentReport.resx">
+      <DependentUpon>frmPunishmentReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmTrainingCycle.resx">
+      <DependentUpon>frmTrainingCycle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\repBehavior.rdlc" />
+    <EmbeddedResource Include="Reports\rpJobDocument.rdlc" />
+    <EmbeddedResource Include="Reports\rptTrgPlan.rdlc" />
+    <None Include="DataSets\DsJobDocument.xsc">
+      <DependentUpon>DsJobDocument.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DsJobDocument.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsJobDocument.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DsJobDocument.xss">
+      <DependentUpon>DsJobDocument.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confirm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\return.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

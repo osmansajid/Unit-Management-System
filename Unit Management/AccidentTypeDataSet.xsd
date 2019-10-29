@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AccidentTypeDataSet" targetNamespace="http://tempuri.org/AccidentTypeDataSet.xsd" xmlns:mstns="http://tempuri.org/AccidentTypeDataSet.xsd" xmlns="http://tempuri.org/AccidentTypeDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="unit_appConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="unit_appConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Unit_Management.Properties.Settings.GlobalReference.Default.unit_appConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ACCIDENT_TYPETableAdapter" GeneratorDataComponentClassName="ACCIDENT_TYPETableAdapter" Name="ACCIDENT_TYPE" UserDataComponentName="ACCIDENT_TYPETableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="unit_appConnectionString (Settings)" DbObjectName="unit_app.ACCIDENT_TYPE" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT CODE, NAME, DESCRIPTION FROM ACCIDENT_TYPE</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AccidentTypeDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="AccidentTypeDataSet" msprop:Generator_UserDSName="AccidentTypeDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ACCIDENT_TYPE" msprop:Generator_TableClassName="ACCIDENT_TYPEDataTable" msprop:Generator_TableVarName="tableACCIDENT_TYPE" msprop:Generator_TablePropName="ACCIDENT_TYPE" msprop:Generator_RowDeletingName="ACCIDENT_TYPERowDeleting" msprop:Generator_RowChangingName="ACCIDENT_TYPERowChanging" msprop:Generator_RowEvHandlerName="ACCIDENT_TYPERowChangeEventHandler" msprop:Generator_RowDeletedName="ACCIDENT_TYPERowDeleted" msprop:Generator_UserTableName="ACCIDENT_TYPE" msprop:Generator_RowChangedName="ACCIDENT_TYPERowChanged" msprop:Generator_RowEvArgName="ACCIDENT_TYPERowChangeEvent" msprop:Generator_RowClassName="ACCIDENT_TYPERow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
