@@ -1,0 +1,71 @@
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit Management.csprojAssemblyReference.cache
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.Admin.frmManageUser.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.Dashboard.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.frmLogin.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.MasterData.frmaccidentType.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.MasterData.frmMedicalType.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.MasterData.frmOrgStracture.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.MasterData.Organization.frmOrgMaster.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmAppt.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmArmyFamilyDetails.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmArmyMasterInfo.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmArmyMasterInfoManage.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmEducation.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmFgAssignment.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmIPFT.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmLeave.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmManageOPR.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmMedicalInfo.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmPunishment.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmTrgPlan.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.Properties.Resources.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.Reports.frmJobDocument.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.Reports.frmPunishmentReport.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit_Management.Reports.frmTrainingCycle.resources
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit Management.csproj.GenerateResource.cache
+C:\Users\Mahfuj\Downloads\Unit Management\Unit Management\Unit Management\obj\Debug\Unit Management.csproj.CoreCompileInputs.cache
+D:\DB_Project_Final\Unit Management\Unit Management\bin\Debug\Unit Management.exe.config
+D:\DB_Project_Final\Unit Management\Unit Management\bin\Debug\Unit Management.exe
+D:\DB_Project_Final\Unit Management\Unit Management\bin\Debug\Unit Management.pdb
+D:\DB_Project_Final\Unit Management\Unit Management\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\DB_Project_Final\Unit Management\Unit Management\bin\Debug\MySql.Data.dll
+D:\DB_Project_Final\Unit Management\Unit Management\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\DB_Project_Final\Unit Management\Unit Management\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DB_Project_Final\Unit Management\Unit Management\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DB_Project_Final\Unit Management\Unit Management\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DB_Project_Final\Unit Management\Unit Management\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DB_Project_Final\Unit Management\Unit Management\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DB_Project_Final\Unit Management\Unit Management\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DB_Project_Final\Unit Management\Unit Management\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DB_Project_Final\Unit Management\Unit Management\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DB_Project_Final\Unit Management\Unit Management\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DB_Project_Final\Unit Management\Unit Management\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit Management.csprojAssemblyReference.cache
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.Admin.frmManageUser.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.Dashboard.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.frmLogin.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.MasterData.frmaccidentType.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.MasterData.frmMedicalType.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.MasterData.frmOrgStracture.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.MasterData.Organization.frmOrgMaster.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmAppt.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmArmyFamilyDetails.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmArmyMasterInfo.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmArmyMasterInfoManage.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmEducation.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmFgAssignment.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmIPFT.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmLeave.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmManageOPR.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmMedicalInfo.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmPunishment.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.Person.frmTrgPlan.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.Properties.Resources.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.Reports.frmJobDocument.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.Reports.frmPunishmentReport.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit_Management.Reports.frmTrainingCycle.resources
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit Management.csproj.GenerateResource.cache
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit Management.csproj.CoreCompileInputs.cache
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit Management.csproj.CopyComplete
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit Management.exe
+D:\DB_Project_Final\Unit Management\Unit Management\obj\Debug\Unit Management.pdb
